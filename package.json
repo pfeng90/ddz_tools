@@ -1,0 +1,23 @@
+{
+  "name": "ddz_res_filter",
+  "version": "1.0.0",
+  "description": "a tool to filter png resource on project ddz.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragon8897/ddz_res_filter.git"
+  },
+  "author": "paili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dragon8897/ddz_res_filter/issues"
+  },
+  "homepage": "https://github.com/dragon8897/ddz_res_filter#readme",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "xml-js": "^1.4.1"
+  }
+}
