@@ -18,6 +18,7 @@
   "homepage": "https://github.com/dragon8897/ddz_res_filter#readme",
   "dependencies": {
     "commander": "^2.11.0",
+    "fs-extra": "^4.0.1",
     "xml-js": "^1.4.1"
   }
 }
