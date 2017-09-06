@@ -21,7 +21,7 @@ if (program.directory)
     let files = folder.scanSync(program.directory, 'csd', true);
     files.forEach(file => {
         let pngs = parser.findPng(file);
-        copyer.copyPng('/Users/baina/Workshop/game-hydra-develop/game_client/Resources', '/Users/baina/Desktop/output', pngs);
+        copyer.copyPng('/Users/baina/Desktop/input', '/Users/baina/Desktop/output', pngs);
     })
 }
 
@@ -91,7 +91,7 @@ if (program.copy)
         {
             list.push(map[k]);
         }
-        copyer.copyPng('/Users/baina/Workshop/game-hydra-develop/game_client/Resources', '/Users/baina/Desktop/output', list);
+        copyer.copyPng('/Users/baina/Desktop/input', '/Users/baina/Desktop/output', list);
     }
     else
     {

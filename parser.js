@@ -19,6 +19,17 @@ function _searchPng(jsonObj, list)
         if (o === 'DisabledFileData' || 
             o === 'PressedFileData' || 
             o === 'NormalFileData' ||
+            o === 'NormalBackFileData' ||
+            o === 'PressedBackFileData' ||
+            o === 'DisableBackFileData' ||
+            o === 'NodeNormalFileData' ||
+            o === 'NodeDisableFileData' ||
+            o === 'ImageFileData' ||
+            o === 'BackGroundData' ||
+            o === 'ProgressBarData' ||
+            o === 'BallNormalData' ||
+            o === 'BallPressedData' ||
+            o === 'BallDisabledData' ||
             o === 'FileData')
         {
             let a = obj._attributes;
