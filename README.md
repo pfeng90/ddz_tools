@@ -1,2 +1,2 @@
-# ddz_res_filter
-a tool to filter png resource on project ddz.
+# ddz_tools
+a toolbox for project ddz.
