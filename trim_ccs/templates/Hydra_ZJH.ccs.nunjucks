@@ -1,0 +1,12 @@
+<Solution>
+  <PropertyGroup Name="Hydra_ZJH" Version="2.0.2.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        {{ IMAGES_CONTENT }}
+        {{ LAYOUT_CONTENT }}
+        {{ FONTS_CONTENT }}
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

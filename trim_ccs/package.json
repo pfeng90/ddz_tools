@@ -1,0 +1,18 @@
+{
+  "name": "trim_ccs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "fs-extra": "^4.0.2",
+    "nunjucks": "^3.0.1",
+    "tmp": "0.0.33",
+    "xml-js": "^1.4.2"
+  }
+}
