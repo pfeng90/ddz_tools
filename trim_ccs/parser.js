@@ -39,7 +39,7 @@ function _searchPng(jsonObj, list)
             }
             else if (a.Type === 'Normal')
             {
-                if (a.Path.endsWith('.jpg'))
+                if (a.Path.endsWith('.jpg') || a.Path.endsWith('.png'))
                 {
                     list.push(a.Path);
                 }
