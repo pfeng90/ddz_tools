@@ -37,6 +37,13 @@ function _searchPng(jsonObj, list)
             {
                 list.push(a.Path);
             }
+            else if (a.Type === 'Normal')
+            {
+                if (a.Path.endsWith('.jpg') || a.Path.endsWith('.png'))
+                {
+                    list.push(a.Path);
+                }
+            }
         }
         else if(!o.startsWith('_'))
         {
@@ -54,7 +61,7 @@ function _searchPng(jsonObj, list)
 
 function findPng(file)
 {
-    console.log(file);
+    // console.log(file);
     let data = fs.readFileSync(file);
     let json = convert.xml2json(data, {compact: true, space: 4});
     let obj = JSON.parse(json);
